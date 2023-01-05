@@ -96,7 +96,7 @@ def plot_graph(graph, filename=None, parent_pos=None, title=None):
         graph._graph, k=k, pos=pos, fixed=fixed, iterations=iterations)
     nx.draw_networkx_nodes(
         graph._graph, pos, node_color=[[0.6, 0.8, 0.047]] * len(graph.nodes()),
-        node_size=200, scale=1.0)
+        node_size=200)
     nx.draw_networkx_edges(graph._graph, pos, alpha=0.4, width=2.0, node_size=200)
 
     labels = {}
