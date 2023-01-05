@@ -195,7 +195,7 @@ def plot_instance(graph, pattern, instance, filename=None,
     nx.draw_networkx_nodes(
         graph._graph, pos, node_color=new_colors, node_size=200)
     nx.draw_networkx_edges(
-        graph._graph, pos, alpha=0.4, width=2.0, node_size=200, scale=1.0)
+        graph._graph, pos, alpha=0.4, width=2.0, node_size=200)
 
     # Draw pattern edges highlighted
     edgelist = [(instance[edge[0]], instance[edge[1]])
