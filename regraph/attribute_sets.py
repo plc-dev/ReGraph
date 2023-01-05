@@ -29,7 +29,8 @@ import numpy as np
 import math
 import sys
 
-from greenery.lego import parse
+# from greenery.lego import parse
+from greenery import parse
 
 from regraph.exceptions import AttributeSetError
 
